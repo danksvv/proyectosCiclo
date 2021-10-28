@@ -6,7 +6,10 @@ public class calcularNotaMedia {
 
         Scanner keyboardIn = new Scanner(System.in);
         double nota, nota_total_aprobados=0, cont=0, nota_media;
-        int alumnos=10;
+        int alumnos=2;
+        System.out.println("--------------------------------");
+        System.out.println("NOTA MEDIA DE ALUMNOS APROBADOS");
+        System.out.println("--------------------------------");
         // Solicitamos la nota de x=alumnos veces en la iteración del for
         for (int i=0; i<alumnos; i++){
             // Validamos que la nota introducida sea valida, entre 0 y 10
@@ -27,7 +30,8 @@ public class calcularNotaMedia {
         // nota media de alumnos aprobados
         nota_media = nota_total_aprobados/cont;
         nota_media = Math.round(nota_media*100)/100.0;
-
+        System.out.println("===============================================");
         System.out.println("La nota media de los " + (int)cont + " alumnos aprobados es " + nota_media);
+        System.out.println("===============================================");
     }
 }
