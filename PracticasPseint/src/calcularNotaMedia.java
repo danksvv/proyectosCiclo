@@ -6,7 +6,7 @@ public class calcularNotaMedia {
 
         Scanner keyboardIn = new Scanner(System.in);
         double nota, nota_total_aprobados=0, cont=0, nota_media;
-        int alumnos=2;
+        int alumnos=40;
         System.out.println("--------------------------------");
         System.out.println("NOTA MEDIA DE ALUMNOS APROBADOS");
         System.out.println("--------------------------------");
