@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class funtionDecenas {
+public class functionDecenas {
     static double calcularDecenas(double num){
         return num/10.0;
     }
